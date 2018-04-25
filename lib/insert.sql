@@ -12,4 +12,29 @@ INSERT INTO characters (name, motto, species, series_id, author_id) VALUES
 ('Frodo Baggins', 'Bearer of One Ring', "Hobbit", 2, 2),
 ('Gandalf the Grey', 'magical one', 'Wizard', 2, 2),
 ('Legolas', 'fighter', 'Elf', 2, 2),
-('Gimli', 'Better than Legolas', 'Dwarf', 2, 2)
+('Gimli', 'Better than Legolas', 'Dwarf', 2, 2),
+('Danerys', 'Free the people', 'Blood of the Dragon', 1, 1),
+('Jon Snow', 'I know nothing', 'human', 1, 1),
+('Drogon', '...', 'Dragon', 1, 1),
+("Night's King", 'Winter is here', "White Walker", 1 ,1);
+
+INSERT INTO subgenres (name) VALUES ('fantasy'), ('war');
+
+INSERT INTO authors (name, series_id) VALUES ('George R. R. Martin', 1), ('J. R. R. Tolkien', 2);
+
+INSERT INTO character_books (character_id, book_id) VALUES (1,5),
+(2,5),
+(3,6),
+(4,5),
+(5,1),
+(6,3),
+(7,3),
+(8,4),
+(1,6),
+(2,6),
+(3,5),
+(4,6),
+(5,2),
+(6,4),
+(7,4),
+(8,1);
