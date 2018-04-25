@@ -12,4 +12,8 @@ INSERT INTO characters (name, motto, species, series_id, author_id) VALUES
 ('Frodo Baggins', 'Bearer of One Ring', "Hobbit", 2, 2),
 ('Gandalf the Grey', 'magical one', 'Wizard', 2, 2),
 ('Legolas', 'fighter', 'Elf', 2, 2),
-('Gimli', 'Better than Legolas', 'Dwarf', 2, 2)
+('Gimli', 'Better than Legolas', 'Dwarf', 2, 2),
+('Danerys', 'Free the people', 'Blood of the Dragon', 1, 1),
+('Jon Snow' ' I know nothing', 'human', 1, 1),
+('Drogon', '...', 'Dragon', 1, 1),
+("Night's King", 'Winter is here', "White Walker", 1 ,1);
