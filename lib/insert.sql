@@ -19,3 +19,5 @@ INSERT INTO characters (name, motto, species, series_id, author_id) VALUES
 ("Night's King", 'Winter is here', "White Walker", 1 ,1);
 
 INSERT INTO subgenres (name) VALUES ('fantasy'), ('war');
+
+INSERT INTO authors (name, series_id) VALUES ('George R. R. Martin'), ('J. R. R. Tolkien');
