@@ -17,3 +17,5 @@ INSERT INTO characters (name, motto, species, series_id, author_id) VALUES
 ('Jon Snow', 'I know nothing', 'human', 1, 1),
 ('Drogon', '...', 'Dragon', 1, 1),
 ("Night's King", 'Winter is here', "White Walker", 1 ,1);
+
+INSERT INTO subgenres (name) VALUES ('fantasy'), ('war');
