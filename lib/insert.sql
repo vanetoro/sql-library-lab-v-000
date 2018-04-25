@@ -21,3 +21,17 @@ INSERT INTO characters (name, motto, species, series_id, author_id) VALUES
 INSERT INTO subgenres (name) VALUES ('fantasy'), ('war');
 
 INSERT INTO authors (name, series_id) VALUES ('George R. R. Martin', 1), ('J. R. R. Tolkien', 2);
+
+INSERT INTO character_books (character_id, book_id) VALUES (1,5),
+(2,5),
+(3,6),
+(4,5),
+(5,1),
+(6,3),
+(7,3),
+(8,4),
+(1,6),
+(2,6),
+(3,5),
+(4,6),
+(5,2);
